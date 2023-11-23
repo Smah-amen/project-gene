@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+  <nav  class="navbar navbar-expand-lg bg-body-tertiary "  ">
+    <div style="background-color: white;" class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="imges/aa46a16ca525be73b4f21f1428f58cab.jpg" width="120" height="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul style="font-size: 20px; font-weight: bold;  padding: 25px;" class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " aria-disabled="true">Courses</a>
+          </li>
+
+
+          <li class="nav-item  dropdown ">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Genetics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Books</a></li>
+              <li><a class="dropdown-item" href="#">journals</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex " role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary me-2" type="submit">Search</button>
+        </form>
+            <!-- Button trigger modal -->
+
+            <button type="button" class="btn btn-outline-primary me-2 " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Log in
+            </button>
+           
+            <!-- Modal -->
+            <div class="modal fade  " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-primary-subtle">
+                    <h1  class="modal-title fs-5 " id="staticBackdropLabel">Log In or Creat New Account</h1>
+                    <button type="button"class="btn-close" data-bs-dismiss="modal" aria-label="Close "></button>
+                  </div>
+                  <div class="modal-body ">
+                    
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input placeholder="email" class="form-control" id="inputEmail4 ">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input placeholder="password" class="form-control" id="inputPassword4">
+                      </div>
+                     
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                     
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Check me out
+                          </label>
+                        </div>
+                      </div>
+                     
+                    </form>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">log in</button>
+                  </div>
+                </div>
+              </div>
+            </div>        
+      </div>
+    </div>
+  </nav>
+<!-- /////////////////////END NAVBAR////////////////////////// -->
+
+  <!-- ////////////////////////////////////////////////ICONS/////////////////////////////////// -->
+  
+  <div class="icon-bar">
+    <a href="#" class="facebook"> <i class="fab fa-facebook-square"></i> </a>
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i> </a>
+    <a href="#" class="google"> <i class="fab fa-whatsapp"></i></a>
+    <a href="#" class="linkedin"> <i class="fab fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i> </a>
+  </div>
+
+
+
+
+<!-- ////////////////////////////////////////////////////////////CAROUSEL/////////////////////////// -->
+
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid col-lg-4 col-12  w-100"   >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imges/d27853a20b633236116efa0333b9082d.jpg" class="d-block w-100 vh-100"  >
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gene therapy</h5>
+          <p> Gene therapy is a technique that uses a gene(s) to treat, prevent or cure a disease or medical disorder</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imges/e1a3eefa00b4ff2f95c00165d9e6e644.jpg" class="d-block w-100 vh-100" >
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gene therapy </h5>
+          <p>The first attempt at modifying human DNA was performed in 1980, by Martin Cline, </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imges/7370f309f5c2d5d263900bfc951ae1a3.jpg" class="d-block w-100 vh-100" >
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Gene therapy </h5>
+          <p> further gene therapy drugs were approved, such as Glybera (2012) </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- ///////////////////////////////////////////END CAROUSEL///////////////////////////// -->
+
+<!-- //////////////////////////////////////////////////// FRIST SECTION///////////////////////////////////// -->
+           
+  <div class="container">
+    <div class="jumbotron mt-4 p-5">
+      <h1>What are genetic disorders? </h1>      
+      <p style="font-size: 22px; text-transform: capitalize;">Genetic disorders occur when a mutation (a harmful change to a gene, also known as a pathogenic variant) affects your genes or when you have the wrong amount of genetic material.
+         Genes are made of DNA (deoxyribonucleic acid),<br>
+          which contain instructions for cell functioning and the characteristics that make you unique </p>
+    </div>
+    <p style="font-size: 20px; text-transform: capitalize;"> You receive half your genes from each biological parent and may inherit a gene mutation from one parent or both. Sometimes genes change due to issues within the DNA (mutations). <br>
+       This can raise your risk of having a genetic disorder. Some cause symptoms at birth, while others develop over time. </p>      
+    <p style="font-size: 25px;"> Genetic disorders can be:</p>      
+  </div>
+
+  <div class="accordion accordion-flush container" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button style="font-size: 30px; color: rgb(93, 93, 216);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Chromosomal
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> This type affects the structures that hold your genes/DNA within each cell (chromosomes). With these conditions,
+           people are missing or have duplicated chromosome material. .</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button  style="font-size: 30px; color: rgb(93, 93, 216);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Complex (multifactorial)
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">  These disorders stem from a combination of gene mutations and other factors. They include chemical exposure, diet, certain medications and tobacco or alcohol use.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button style="font-size: 30px; color: rgb(93, 93, 216);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Single-gene (monogenic)
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> This group of conditions occurs from a single gene mutation.</div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <!-- /////////////////////////////////////////////END SECTION -->
+
+
+  
+<!-- ///////////////////////////////////////////////////////////////////JUMBTRON///////////////////////////////////////////////////////// -->
+
+          <div class="container  col-12">
+      <div class="jumbotron  col-12" >
+         <img src="imges/What_is_a_genome.jpg" alt="" class=" col-12">
+            <p style="text-transform: capitalize; font-size: 17px;"> Genomics is a branch of genetics related to the study of the genome, that is, the entire genetic material within various organisms. 
+              The field involves extensive efforts to fully determine DNA sequences and accurately map the genome.
+               This specialization also includes the study of a number of phenomena that occur within the genome, such as heterosis, epistasis, pleiotropy, and other interactions between different loci and alleles within the genome. 
+              In contrast, when a limited number of genes (but not all genes) are studied, it is called molecular biology or molecular genetics .</p>
+              <p style="text-transform: capitalize; font-size: 17px;">It is a topic that is often prevalent in biomedical research. Conducting research on a single gene (or a limited number of genes) does not fall within the definition of genomics unless the goal of this research is to study the effect of the gene on entire networks within the entire genome.
+                 The genome is the sum of genes of an individual's entire organism.
+                 Therefore, genomics is the study of genes in a cell, or tissue, at the DNA level. </p>
+       </div>
+      </div>
+<!-- ////////////////////////////////////////////////////////////////////////////JUMBTRON/////////////////////////// -->
+      <div class="container col-12">
+  <div class=" jumbotron col-12" >
+    <h1 style="text-align: center; font-size: 70px; font-family: monospace; color: rgb(17, 17, 231);"> what is gene and allels?</h1>
+    <img src="imges/b95626377e6c8aceb2268e4d95d71c6a.jpg" alt=""  class="col-12" > 
+    <h4 style="font-size: 25px; ">Genes and alleles are essential to basic genetics, but what are the differences between them?  </h4>
+    <p style="font-size: 20px;"> Genes are the most basic and functional unit of heredity. In other words, it means that genes make up our DNA structure and are responsible for all the genetic traits that we have. <br>
+       And in humans, everyone has two copies of each gene, known as an allele, one from each parent. These alleles of a gene are responsible for the variations and uniqueness of each individual. 
+       These different variations of a particular gene are known as an allele.</p>
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////////////////////VADIO///////////////////////////////// -->
+<div class="container col-12">
+  <div class="jumbotron col-12" >
+    <h1 style="text-align: center; font-size: 70px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(17, 17, 231);">How do genetic diseases occur?</h1>
+     <iframe class="col-12" width="1280" height="720" src="https://www.youtube.com/embed/CA8r06-6yFE" title="How mutations, or variations, can lead to genetic conditions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+        <div style="font-size: 30px; color: brown; " class="active">Mutation:</div> 
+    <p style="font-size: 17px;  text-transform: capitalize;" >  Mutations are happening in our cells all the time, but almost none of these affect our health. This is very different than what we often see in science fiction in movies. In real life, a mutation is never so beneficial that it turns a person into a superhero or does something bizarre like cause them to grow wings. 
+      There are many reasons that mutations usually don't have major consequences. One reason is that our cells have very sophisticated machinery for repairing mutations very quickly. So there's not enough time for them to cause problems. Another is that most mutations occur in somatic cells like muscle cells or skin cells and can only affect the cell where the mutation occurred and cells that grow from that cell
+      . On the other hand, when mutations occur in germline cells, eggs and sperm, they will be present in every cell that develops from that egg or sperm, an entire person, and can have larger effects.  </p>
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////// END SECTION/////////////////////////////////////////////////////////// -->
+<div class="fixed-img fixed-image col-12"></div>
+                <!-- //////////////////////////////////////////////////////////////// DISORDERS//////////////////////////////////////////////////////////////////////////////// -->
+   <section class="cardd">
+
+    <div class="mx-auto mb-3 p-3   text-center   ">
+      <h1 style="font-size: 60px; color: rgb(101, 101, 173);">Genetic Disorders </h1>
+    </div>   
+<div class="container-fluid px-4">
+  <div class="  row justify-content-around gx-3 ">
+            <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow ">
+              <img src="imges/Albinism.jpg" class="card-img-top" alt="...">
+              
+               <div class="card-body">
+                <h5 style="color: rgb(101, 101, 173)" class="card-title">Albinism </h5>
+              <p style="color: rgb(101, 101, 173);" class="card-text"> Albinism is a group of genetic conditions in which a person has no or very little melanin pigment in their skin, hair and eyes.                     Albinism occurs in all racial and ethnic groups throughout the world.
+                  In Australia, about 1 in 17,000 people have some type of albinism It is important for people with albinism to protect their skin and eyes from the sun, and have their eyes checked regularly.
+                    The genes for albinism are passed down from both parents, who may not be directly affected by it themselves.   </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                      </div>
+
+
+                    </div>
+                    <div class=" card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <img src="imges/thalassaemia_h-32f55b.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                   <h5 style="color: rgb(101, 101, 173);" class="card-title">Thalassaemia </h5>
+                   
+          <p style="color: rgb(101, 101, 173);" class="card-text"> Thalassaemia is an inherited genetic disorder that affects the blood and causes lifelong anaemia.
+    People with thalassaemia do not produce enough healthy haemoglobin, which makes their blood cells small and pale. Haemoglobin is a protein found in red blood cells that carries oxygen from the lungs to the rest of the body.                          
+           People born with thalassaemia cannot move oxygen around the body properly.Depending on the type of thalassaemia they have .</p>
+              <a href="#" class="btn btn-primary"> Read more</a>
+                   </div>
+
+                    </div>
+                    <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow ">
+                      <img src="imges/Fragile-X-syndrome.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 style="color: rgb(101, 101, 173);" class="card-title">Fragile X syndrome </h5>
+                        <p style="color: rgb(101, 101, 173);" class="card-text">People with Fragile X syndrome (or Fragile X) have intellectual disability, behavioural and learning challenges as well as certain physical characteristics.
+                           Fragile X is the most common inherited cause of intellectual disability, and also the most common known genetic cause of autism. It affects around one in 4,000 males and around one in 6,000 females.
+                        Fragile X is caused by a change in a single gene, the FMR-1 gene. This gene helps create a protein that is needed for healthy brain development.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                      </div>
+
+
+                    </div>
+
+
+                  <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow ">
+                    <img src="imges/nervous_system_charcot-marie-tooth-disease-7f02c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 style="color: rgb(101, 101, 173);" class="card-title">Charcot-Marie-Tooth disease </h5>
+                      <p style="color: rgb(101, 101, 173);" class="card-text"> Charcot-Marie-Tooth (CMT) disease is an inherited neurological condition that causes problems with the muscles of your feet, legs, arms and hands.
+                         Although there is currently no cure, people with CMT can use a variety of therapies and strategies to help manage their symptoms
+                         .CMT disease (sometimes called hereditary motor and sensory neuropathy) is not a single disease but a group of genetic conditions affecting the nervous system.
+                         </p>
+                      <a href="#" class="btn btn-primary"> Read more</a>
+                    </div>
+
+
+                  </div>
+
+       <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow ">
+             <img src="imges/congenital-adrenal-hyperplasia-668845.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 style="color: rgb(101, 101, 173);" class="card-title">Congenital adrenal hyperplasia </h5>
+             <p style="color: rgb(101, 101, 173);" class="card-text"> Congenital adrenal hyperplasia, or CAH, is an inherited group of conditions that affects the adrenal glands. These glands, which sit above the kidneys, make hormones such as cortisol, aldosterone (which helps to regulate salt levels in the body) and androgens (male sex hormones).
+               In many cases, a person who has CAH makes too many androgens and not enough cortisol and aldosterone.CAH can affect a child's normal growth and development
+              
+              </p>
+                <a href="#" class="btn btn-primary"> Read More</a>
+                      </div>
+
+
+                    </div> 
+
+     <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow ">
+      
+            <img src="imges/apert-syndrome-f599de.jpg" class="card-img-top" alt="...">
+          
+          
+            <div class="card-body">
+              <h5 style="color: rgb(101, 101, 173);" class="card-title">Apert syndrome </h5>
+              <p style="color: rgb(101, 101, 173);" class="card-text">The mutation, usually evident at birth, causes the bones of the skull to fuse together much earlier than usual, before the brain is fully grown.
+                 Pressure from the brain as it grows pushes the bones of the head and face out of shape. This brain compression can affect a child’s intellectual development
+                 Apert syndrome also affects the hands and feet and a range of internal body organs Surgery and other treatments can increase the chance of a child with Apert syndrome developing normally.</p>
+         <a href="#" class="btn btn-primary"> Read More</a>
+            </div>
+    </div>
+
+  </div>
+  
+  </section>
+  <!-- ////////////////////////////////////////////////END SECTION/////////////////////////////////////// -->
+  <br>
+
+  <div class="fixed-imge fixed-imagee"></div>
+
+<br>
+ 
+<!-- //////////////////////////////////////////////////////////////////////-->
+<section class="container light"> <!-- postcards news -->
+  <div class="container py-2">
+    <div class="h1 text-center  title" id="pageHeaderTitle" style="font-size: 60px; color: rgb(101, 101, 173);">Biology Books </div>
+    <br>
+
+    <article class="postcard d-flex light blue"> <!-- 1st card -->
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="imges/d9b010c37f0a00c7b66bcf36ba713ffc.jpg" alt="Image Title">
+      </a>
+      <div  class="postcard__text t-dark">
+        <h1 style="font-size: 40px;" class="postcard__title blue"><a href="#" style="text-decoration: none;" > GENETICS</a></h1>
+        <div class="postcard__subtitle small">
+          <time style="font-size: 20px; color: rgb(54, 54, 177);" datetime="2020-05-25 12:00:00">
+            <i style="font-size: 22px; color: rgb(67, 67, 192);" class="fas fa-calendar-alt mr-2"></i> 24mon/Nev2023 
+          </time>
+        </div>
+        <div class="postcard__bar"></div>
+        <div class="postcard__preview-txt">  Genetics: From Genes to Genomes is a cutting-edge, introductory genetics text authored by an unparalleled author team, including Nobel Prize winner, Leland Hartwell.
+          The 5th edition continues to build upon the integration of Mendelian and molecular principles, providing students with the links between the early understanding of genetics and the new molecular discoveries that have changed 
+          the way the field of genetics is viewed
+          </div>
+          <p style="font-size: 18px; font-weight: bold;" class="card-text"><small class="text-body-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+        <ul class="postcard__tagbox texr-white" style="font-size: 20px; ">
+          <li  class="tag__item "><i class="fas fa-search mr-2"></i> search</li>
+          <li class="tag__item"><i class="fas fa-file-pdf mr-2"></i> Pdf</li>
+          <li class="tag__item ">
+            <a style="text-decoration: none;" href="#" class=""><i class="fas fa-arrow-circle-down mr-2 "></i> Download</a>
+          </li>
+        </ul>
+      </div>
+    </article> <!-- /1st card -->
+    <article class="postcard d-flex light blue"> <!-- 2nd card -->
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="imges/afc20c673250b2fd5bbf2ba01d57b6dd.jpg" alt="Image Title">
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 style="font-size: 40px;" class="postcard__title blue"><a href="#" style="text-decoration: none;"> Principles of Biotechnology </a></h1>
+        <div class="postcard__subtitle small">
+          <time style="font-size: 20px; color: rgb(54, 54, 177);" datetime="2020-05-25 12:00:00">
+            <i style="font-size: 22px; color: rgb(67, 67, 192);" class="fas fa-calendar-alt mr-2"></i> 24mon/ Nov2023
+          </time>
+        </div>
+        <div class="postcard__bar"></div>
+        <div class="postcard__preview-txt">
+          This resource introduces students and researchers to the fundamentals of biotechnology using easy-to-understand language that gives readers
+           a solid start and deeper understanding and appreciation of this complex subject.The 134 articles include 109 entries that explain the basic principles of biotechnology, ranging from Alternative Energy Sources to Zygomycetes, with attention paid to Cloning; 
+           Synthetic Fuels, Medicinal Plants, Stem Cell Research & Technology; Genetically Modified Organisms; and more.
+          </div>
+          <p style=" font-size: 18px; font-weight: bold;" class="card-text"><small class="text-body-secondary">by Christina A. Crawford, MS Ed</small></p>
+        <ul class="postcard__tagbox" style="font-size: 20px;">
+          <li class="tag__item"><i class="fas fa-search mr-2"></i>search</li>
+          <li class="tag__item"><i class="fas fa-file-pdf mr-2"></i>Pdf</li>
+          <li class="tag__item ">
+            <a style="text-decoration: none;" href="#" class=><i class="fas fa-arrow-circle-down mr-2 "></i> Download</a>
+          </li>
+        </ul>
+      </div>
+    </article> <!-- /2nd card -->
+    <article class="postcard d-flex  light blue"> <!-- 3rd card -->
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="imges/53a7a7d0d796331f5fdefd3a4e56e6d3.jpg" alt="Image Title">
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 style="font-size: 40px;" class="postcard__title blue"><a href="#" style="text-decoration: none;"> Molecular Pathology</a></h1>
+        <div class="postcard__subtitle small">
+          <time style="font-size: 20px; color: rgb(54, 54, 177);" datetime="2020-05-25 12:00:00">
+            <i style="font-size: 22px; color: rgb(67, 67, 192);" class="fas fa-calendar-alt mr-2"></i>24mon /Nov2023
+          </time>
+        </div>
+        <div class="postcard__bar"></div>
+        <div class="postcard__preview-txt">
+          As the molecular basis of human disease becomes better characterized, and the implications for understanding the molecular basis of disease becomes realized through improved diagnostics and treatment, Molecular Pathology, Second Edition stands out as the most comprehensive textbook where molecular mechanisms represent the focus.
+          It is uniquely concerned with the molecular basis of major human diseases and disease processes, presented in the context of traditional pathology, with implications for translational molecular medicine.
+        </div>
+        <p style=" font-size: 18px; font-weight: bold;" class="card-text"><small class="text-body-secondary"> by William B. Coleman (Editor), Gregory J. Tsongalis PhD HCLD CC FNACB (Editor)</small></p>
+        <ul class="postcard__tagbox" style="font-size: 20px;">
+          <li class="tag__item"><i class="fas fa-search mr-2"></i>search</li>
+          <li class="tag__item"><i class="fas fa-file-pdf mr-2"></i>Pdf</li>
+          <li class="tag__item ">
+            <a style="text-decoration: none;" href="#" class=""><i class="fas fa-arrow-circle-down mr-2 "></i> Download</a>
+          </li>
+        </ul>
+      </div>
+    </article> <!-- /3rd card -->
+    <article class="postcard d-flex light blue "> <!-- 4th card -->
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="imges/acd19bad4711b4fb942544c4da94c6e4.jpg" alt="Image Title">
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 style="font-size: 40px;" class="postcard__title blue"><a href="#"> Bioinformatics </a></h1>
+        <div class="postcard__subtitle small">
+          <time style="font-size: 20px; color: rgb(54, 54, 177); " datetime="2020-05-25 12:00:00">
+            <i style="font-size: 22px; color: rgb(67, 67, 192);" class="fas fa-calendar-alt mr-2"></i>24mon/Nov2023
+          </time>
+        </div>
+        <div class="postcard__bar"></div>
+        <div class="postcard__preview-txt">
+          Concise Encyclopaedia of Bioinformatics and Computational Biology, 2nd Edition is a fully revised and updated version of this acclaimed resource. The book provides definitions and often explanations of over 1000 words, phrases and concepts relating to this fast-moving and exciting field, offering a convenient,
+           one-stop summary of the core knowledge in the area. This second edition is an invaluable resource for students, researchers and academics.
+        </div>
+        <p style="font-size: 18px; font-weight: bold;" class="card-text"><small class="text-body-secondary">John M. Hancock (editor) </small></p>
+          <ul class="postcard__tagbox">
+          <li class="tag__item"><i class="fas fa-search mr-2"></i>search</li>
+          <li class="tag__item"><i class="fas fa-file-pdf mr-2"></i>Pdf</li>
+          <li class="tag__item ">
+            <a style="text-decoration: none;" href="#" class=""><i class="fas fa-arrow-circle-down mr-2 "></i> Download</a>
+          </li>
+        </ul>
+      </div>
+    </article> <!-- /4th card -->
+  </div> <!-- /container -->
+</section>
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- 
+<div class=" card p-3 text-shadow lg  text-center backgroun  ">
+  <h1 style="font-size: 60px; color: rgb(101, 101, 173);"> Biology Scientist</h1>
+</div>  -->
+          <section class="wrapper">
+            <h1 class="text-center p-3 text-shadow lg" style="font-size: 60px;  color: linear-gradient(0deg, rgba(90, 59, 59, 0.379) 0%, #81191c 100%); ">Biology Scientist </h1>
+
+            <div class="container" style="width: 100%; min-height: 500px;">
+      
+              <div class="row" style="background-color: white;">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4 bio">
+                  <div class="card card-hover text-white card-has-bg click-col thankcard sec" style="background-image:url(imges/Ernst-Mayr-enhanced-6-scaled.jpg);">
+                    <!-- <img class="card-img d-none" src="images/download.jpg"> -->
+                    <div class="card-img-overlay d-flex flex-column">
+                      <div class="card-body">
+      
+                        <h4 class="card-title mt-0 "><a class="text-white" herf="#">Ernts mayr </a></h4>
+                        <small><i class="fas fa-book-open"></i>born in 5 July 1904
+                          Kempten, Bavaria, German </small>
+                      </div>
+                      <div class="card-footer">
+                        <div class="media">
+                          <img class="mr-3 rounded-circle" src="imges/Ernst-Mayr-enhanced-3-scaled.jpg" style="width:100px">
+                          <div class="media-body">
+                            <h6 class="my-0 text-white d-block">was one of the 20th century's leading evolutionary biologists. </h6>
+                            <small>Biologists </small>
+                          </div>
+                        </div>
+                      </div> <!-- card-footer-->
+                </div> <!-- /card-img-overlay -->
+                    </div> <!-- /card -->
+                  </div> <!-- /card3 -->
+                
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4 bio">
+                  <div class="card card-hover text-white card-has-bg click-col thankcard sec" style="background-image:url(imges/James-Watson.webp);">
+                    
+                    <div class="card-img-overlay d-flex flex-column">
+                      <div class="card-body">
+      
+                        <h4 class="card-title mt-0 "><a class="text-white" herf="#">James-Watson </a></h4>
+                        <small><i class="fas fa-book-open"></i> born in
+                          6 April, 1928 Chicago, Illinois, </small>
+                      </div>
+                      <div class="card-footer">
+                        <div class="media">
+                          <img class="mr-3 rounded-circle" src="imges/download.jpg" style="width:100px">
+                          <div class="media-body">
+                            <h6 class="my-0 text-white d-block"> is an American molecular biologist, geneticist, and zoologist </h6>
+                            <small> Biologists</small>
+                          </div>
+                        </div>
+                      </div> <!-- card-footer -->
+                    </div> <!-- /card-img-overlay -->
+                  </div> <!-- /card -->
+                </div> <!-- /card3 -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3 bio">
+                  <div class="card card-hover text-white card-has-bg click-col thankcard sec" style="background-image:url(imges/Huettner_094.web.jpg);">
+                    <!-- <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="All thanks and appreciation"> -->
+                    <div class="card-img-overlay d-flex flex-column">
+                      <div class="card-body">
+      
+                        <h4 class="card-title mt-0 "><a class="text-white" herf="#">Thomas Hunt Morgan </a></h4>
+                        <small><i class="fas fa-book-open"></i> born in 25 September, 1866 Lexington, Kentucky, US
+                        </small>
+                      </div>
+                      <div class="card-footer">
+                        <div class="media">
+                          <img class="mr-3 rounded-circle" src="imges/thm.jpg" alt="Generic placeholder image" style="width:100px">
+                          <div class="media-body">
+                            <h6 class="my-0 text-white d-block">  was an American evolutionary biologist, geneticist, embryologist </h6>
+                            <small> Biologists</small>
+                          </div>
+                        </div>
+                      </div> <!-- card-footer -->
+                    </div> <!-- /card-img-overlay -->
+                  </div> <!-- /card -->
+                </div> <!-- /card3 -->
+      
+              </div> <!-- /row -->
+            </div>
+            
+          </section>
+
+<!-- /////////////////////////////////////end scation////////////////////////////// -->
+
+
+
+
+<!-- ////////////////////////////////////////////////////////// -->
+<div class="container-fluid ">
+<div class="row justify-content-center p-0 m-0" style="background-color: white; ">
+  <div class="col-md-3 " style="width: 250px; ">
+    <div style="background-color: rgb(42, 42, 90);" class="card car">
+      <p><i class="fa fa-user"></i></p>
+      <h3 style="color: white;">13k+</h3>
+      <p style="font-size: 20px; font-weight: bold; color: white;">user</p>
+    </div>
+  </div>
+
+  <div class="col-md-3 " style="width: 250px; " >
+    <div style="background-color: rgb(42, 42, 90);" class="card car">
+      <p><i class="fa fa-check"></i></p>
+      <h3 style="color: white;">5500+</h3>
+      <p style="font-size: 20px;font-weight: bold; color: white; ">Projects</p>
+    </div>
+  </div>
+
+  <div class="col-md-3" style="width: 250px; " >
+    <div style="background-color: rgb(42, 42, 90);" class="card car">
+      <p><i class="fas fa-book" style="font-size:50px;
+        color: white;"></i> </p>
+      <h3 style="color: white;">200k+</h3>
+      <p style="font-size: 20px; font-weight: bold; color: white;" >Books </p>
+    </div>
+  </div>
+
+  <div class="col-md-3 " style="width: 250px; " >
+    <div style="background-color: rgb(42, 42, 90);" class="card car">
+      <p><i class="fas fa-school" style="font-size:50px;
+        color: white;"></i> </p>
+      <h3 style="color: white;">100+</h3>
+      <p style="font-size: 20px; font-weight: bold; color: white;">Workshops</p>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<br>
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
+
+<footer class="bg-dark texr-white pt-5 pb-4"> 
+      <div class="container text-center text-md-left">
+
+        <div class="row text-center text-md-left">                                               
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img src="imges/aa46a16ca525be73b4f21f1428f58cab.jpg" width="80px" height="80px" alt=""> 
+            <p class="text-primary">In biology, the word gene (from Greek: γένος, génos;[1] meaning generation[2] or birth[1] or gender) can have several different meaning
+
+            </p>
+
+          </div>
+                                                
+          <div class=" col-md-2 col-lg-2 col-xl-2  mx-auto mt-3 ">
+            <h5 class="text-upercase mb-4 font-weight-bold  text-primary">content</h5>
+            <p>
+              <a href="#" class="text-primary" style="text-decoration: none;">Books </a>
+            </p>
+            <p>
+              <a href="#" class="text-primary" style="text-decoration: none;">journals </a>
+            </p>
+
+            <p>
+              <a href="#" class="text-primary" style="text-decoration: none;"> Courses </a>
+            </p>
+            <p>
+              <a href="#" class="text-primary" style="text-decoration: none;">Info </a>
+            </p>
+          </div>         
+           
+          <div class="col-md-3 col-lg-2 col-xl-2  mx-auto mt-3">
+              <h5 class="text-upercase mb-4 font-weight-bold text-primary"> All activety</h5>
+                                 <a href="#" class="texr-white" style="text-decoration: none;"> Events  </a>
+              </p>
+              <p>
+                <a href="#" class="texr-white" style="text-decoration: none;">Workshops </a>
+              </p>
+  
+              <p>
+                <a href="#" class="texr-white" style="text-decoration: none;">  Webinars </a>
+              </p>
+              <p>
+                <a href="#" class="texr-white" style="text-decoration: none;"> Codeathons & Conferences </a>
+              </p>
+
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3  mx-auto mt-3 "> 
+              <h5  class="text-upercase mb-4 font-weight-bold text-primary ">Contact</h5>
+              <p>
+                <i class="fas fa-home mr-3">New-city 2333 </i>
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"> Gene@gmail.com </i>
+              </p> 
+
+              <p>
+                <i class="fas fa-phone mr-3"> tell-23330000 </i>
+              </p>
+
+              <p>
+                <i class="fas fa-print mr-3"> 2333 </i>
+              </p>
+
+            </div>
+            <hr class="mb-4 ">
+            <!-- <div class="row align-items-center "> -->
+              <div class=" col-md-4 col-lg-4  col-xl-3 mx-auto ">
+                <p> &copy;
+                  copyright @2023 All rights reserved by:
+                  <a href="#" style="text-decoration: none;">
+                    <strong class="text-primary">the providers </strong>
+                  </a>
+                </p>
+              </div>
+
+            <!-- </div> -->
+
+        </div>
+
+      </div>
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+
+
+
+    
+</body>
+</html>
